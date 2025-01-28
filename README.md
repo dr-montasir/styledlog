@@ -5,7 +5,7 @@
   </a>
   <br><br>
   <span>
-    <bold>A Rust crate combining versatile logging features with styled output.</bold>
+    <b>A Rust crate combining versatile logging features with styled output.</b>
   </span>
   <br><br>
   <a href="https://crates.io/crates/styledlog">
@@ -17,7 +17,7 @@
 
   <h1>STYLEDLOG</h1>
   <p>
-    The `styledlog` crate provides a set of utilities for logging messages with customizable styles including color, boldness, and italics, along with functionalities for styling tables and text based on user-defined templates.
+    The <b>styledlog</b> crate provides a set of utilities for logging messages with customizable styles including color, boldness, and italics, along with functionalities for styling tables and text based on user-defined templates.
   </p>
 </div>
 
