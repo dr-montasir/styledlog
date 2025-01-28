@@ -1,10 +1,10 @@
 <div align="center">
   <br>
-  <a href="https://github.com/dr-montasir/styledlog">
+  <a href="https://crates.io/crates/styledlog">
       <img src="https://github.com/dr-montasir/styledlog/raw/HEAD/logo.svg" width="100">
   </a>
   <br><br>
-  <a href="https://github.com/dr-montasir/styledlog">
+  <a href="https://crates.io/crates/styledlog">
       <img src="https://github.com/dr-montasir/styledlog/blob/main/styledlog.gif?raw=true">
   <br>
 
