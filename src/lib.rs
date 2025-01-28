@@ -1,7 +1,7 @@
-#![doc(html_logo_url = "https://github.com/dr-montasir/styledlog/raw/HEAD/logo.svg?sanitize=true")]
-#![doc = r"<div align='center'><img src='https://github.com/dr-montasir/styledlog/raw/HEAD/logo.svg?sanitize=true' alt='logo' width='200' height='200' /></div><br>"]
+#![doc(html_logo_url = "https://github.com/dr-montasir/styledlog/raw/HEAD/logo.svg")]
+#![doc = r"<div align='center'><img src='https://github.com/dr-montasir/styledlog/raw/HEAD/logo.svg' alt='logo' width='200' height='200' /></div><br>"]
 #![doc = r"<div align='center'>Styledlog: A Rust crate combining versatile logging features with styled output.<br><br>
-<img src='https://github.com/dr-montasir/styledlog/blob/main/styledlog.gif?raw=true' alt='StyledLog' width='100%' /></div>"]
+<img src='https://github.com/dr-montasir/styledlog/raw/main/styledlog.gif' alt='StyledLog' width='100%' height='auto' /></div>"]
 
 pub mod colorful;
 pub mod formatter;
