@@ -1,6 +1,6 @@
 [package]
 name = "styledlog"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Montasir Mirghani <contact@montasir.me>"]
 edition = "2021"
 description = "Styledlog: A Rust crate combining versatile logging features with styled output."
@@ -10,7 +10,7 @@ repository = "https://github.com/dr-montasir/styledlog"
 readme = "README.md"
 keywords = ["log", "level", "colored", "styled", "tabled"]
 categories = ["development-tools::debugging"]
-exclude = ["logo.svg", "styledlog.gif"]
+exclude = ["logo.svg", "styledlog.gif", "tests/*", ".github/*"]
 
 [dependencies]
 colored = "3.0.0"

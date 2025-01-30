@@ -45,7 +45,7 @@ pub fn hex_to_rgba(hex: &str) -> Result<(u8, u8, u8, f32), String> {
                 .map_err(|_| "Invalid hex value for green".to_string())?;
             let b = u8::from_str_radix(&format!("{}{}", &hex[3..4], &hex[3..4]), 16)
                 .map_err(|_| "Invalid hex value for blue".to_string())?;
-            let a = u8::from_str_radix(&format!("{}", &hex[4..5]), 16)
+            let a = u8::from_str_radix(&hex[4..5], 16)
                 .map_err(|_| "Invalid hex value for alpha".to_string())? as f32
                 * (1.0 / 15.0); // Scale alpha from 0-F to 0.0-1.0
             Ok((r, g, b, a))

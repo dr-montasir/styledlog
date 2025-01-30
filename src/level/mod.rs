@@ -67,6 +67,13 @@ impl Style {
     }
 }
 
+// Implement the Default trait
+impl Default for Style {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 /// Logs a message based on the provided level, style, and action.
 ///
 /// # Arguments
