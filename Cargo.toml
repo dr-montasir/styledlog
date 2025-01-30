@@ -1,6 +1,6 @@
 [package]
 name = "styledlog"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Montasir Mirghani <contact@montasir.me>"]
 edition = "2021"
 description = "Styledlog: A Rust crate combining versatile logging features with styled output."
